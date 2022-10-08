@@ -1,2 +1,3 @@
-# SO-Minix
-Official MINIX sources - Automatically replicated from gerrit.minix3.org
+<h1 align="center">Sistema Operacional Minix</h1>
+
+<p align="center">Denvolvedores: Celso, Eduardo, Júlia, Livia, Pedro</p>
