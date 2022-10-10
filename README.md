@@ -65,7 +65,7 @@ Como em qualquer sistema de arquivos, o sistema de arquivos do MINIX deve alocar
 <div>
  
 <p align="justify"> Júlia Mello </p>
-<a href="https://t.me/juliamello">
+<a href="https://t.me/Ailujmello">
 <img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
 
 </div>
