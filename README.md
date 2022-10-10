@@ -42,7 +42,7 @@ Como em qualquer sistema de arquivos, o sistema de arquivos do MINIX deve alocar
 <p>
 
 - Lívia Gonçalves
-- Júlia Melo
+- Júlia Mello
 - Pedro Henrique Pires Dias
 - Celso Vinícius
 
@@ -62,7 +62,7 @@ Como em qualquer sistema de arquivos, o sistema de arquivos do MINIX deve alocar
  
 <div>
  
-<p align="justify"> Júlia Melo </p>
+<p align="justify"> Júlia Mello </p>
 <a href="https://t.me/juliamello">
 <img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
 
