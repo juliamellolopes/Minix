@@ -2,7 +2,6 @@
 
 Para ler mais informações sobre o trabalho, acesse [WIKI](https://github.com/juliamellolopes/Minix/wiki)
 
-
 # Chaveamento de Processos ou Troca de Contexto
 
 <p> 
