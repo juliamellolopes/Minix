@@ -1,6 +1,14 @@
 <h1 align="center">Sistema Operacional Minix</h1>
 
-<p align="center">Denvolvedores: Celso, Eduardo, Júlia, Livia, Pedro</p>
+# Denvolvedores 
+<p>
+
+- Lívia Gonçalves
+- Júlia Melo
+- Pedro Henrique Pires Dias
+- Celso
+
+</p>
 
 # Contato
 
@@ -24,7 +32,7 @@
 
 <div>
  
-<p align="justify"> Pedro Henrique Dias </p>
+<p align="justify"> Pedro Henrique Pires Dias </p>
 <a href="https://t.me/phpdias">
 <img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
 
