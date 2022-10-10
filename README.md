@@ -1,28 +1,35 @@
 <h1 align="center">Sistema Operacional Minix</h1>
 
-# Resumo
+# Chaveamento de Processos ou Troca de Contexto
 
-<p> O Minix é um sistema operacional gratuito desenvolvido por Andrew Tanenbaum para compensar a proibição da AT&T contra o estudo de SO baseado no código UNIX e prover uma ferramenta de ensino para seus alunos. Originalmente foi projetado para ser compatível com a versão 7 do UNIX e em seguida passou a ser desenvolvido baseado no padrão POSIX. O Minix foi escrito a partir do zero e mesmo sendo compatível com UNIX, não contém código AT&T possibilitando sua distribuição livremente. </p>
+<p> 
 
-# Escalonamento/Política/Aplicabilidade
+<h3> O que é? </h3>
 
-<h3> Escalonamento </h3>
+Chaveamento de um processo ou como conhecido também como mudança/troca de contexto é o processo computacional de armazenar e restaurar as informações necessárias do estado de uma CPU para que mais de um processo possa utilizar a CPU em uma única instância a partir do ponto que o processo foi interrompido. 
 
-<p> O Minix devido ao seu projeto de Micro-Kernel tem uma pequena quantidade de processos que são executados em modo de kernel, sendo assim com grande parte do sistema sendo executados em modo de usuário. Para o Minix, o escalonador de processos de usuário tem uma importância extra já que terá que lidar com uma quantidade bem maior do que o escalonador de kernel. Desse modo é vital que o Minix tenho um instalador justo e responsível em espaço de usuário. </p>
+Normalmente, o chaveamento de processo ocorre sempre que um novo processo é selecionado para ser executado. 
 
-<h3> Política </h3>
+<h3> Quando Chavear um Processo?  </h3> 
 
-<p> Os algoritmos de escalonamento servem para implementar politicas que controlam a execução de múltiplos processos uma vez que cada CPU pode ser acessa por apenas um processo por vez, em geral esses algoritmos prezam por:
+- Quando o tempo (Quantum) de posse da CPU expirou - principalmente quando usa o escalonador Roud-Robin;
+- Quando há interrupção de Entrada e Saída;
 
-- Justiça: fazer com que cada processo tenha um tempo justo de CPU;
-- Equilíbrio: tentando manter todas as partes do sistema ocupadas.  
+<h3> Interrupções do lado do núcleo do Minix </h3> 
+
+O Byte de dado é usado como índice numa tabela de handlers, onde cada handler implementa um tratamento a ser chamado utilizando alguns parâmetros:
+
+- Um ponteiro para uma área na memória;
+- Registradores;
+- Método mixto;
+
+Ao ser executado, o handler efetua a troca de texto. 
+
+<h3> Ações no Chaveamento  </h3> 
+
+Primeiro precisamos salvar o contexto do processador, incluindo o PC e outros registradores. Assim pode-se alterar o BCP (Bloco de controle de processo) do processo que está no estado “em-execução” e movê-lo para uma fila apropriada e selecionar outro processo para execução. Logo após altera-se o BCP do processo selecionado e as tabelas de gerência de memória e por fim restauramos o contexto do processo anterior selecionado.
+
 </p>
-
-# Gerenciamento de Memória
-
-<p> A gestão de memória do MINIX 3 faz uso de um gerenciamento simples, não utilizando de paginação ou swap, sendo também mesclado com a gestão de processos. Essas são algumas das características que o difere de outros sistemas operacionais.
-
-Contando com um sistema de lacunas, a medida que decorrerem as system call's fork ou exec, a lista percorrerá até encontrar a primeira lacuna que tenha espaço suficiente para receber, denominada como first-fit. </p>
 
 # Gerência de Arquivos
 
@@ -30,7 +37,6 @@ Contando com um sistema de lacunas, a medida que decorrerem as system call's for
 
 Como em qualquer sistema de arquivos, o sistema de arquivos do MINIX deve alocar e desalocar o espaço para os arquivos, monitorar blocos de disco e liberar espaço, oferecer alguma maneira de proteger arquivos contra uso não-autorizado. </p>
 
-# Multiprogramação/Chaveamento de Processos/Swap
 
 # Denvolvedores 
 <p>
