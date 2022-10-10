@@ -1,8 +1,7 @@
 <h1 align="center">Sistema Operacional Minix</h1>
 
-<p> 
 Para ler mais informações sobre o trabalho, acesse [WIKI](https://github.com/juliamellolopes/Minix/wiki)
-</p>
+
 
 # Chaveamento de Processos ou Troca de Contexto
 
