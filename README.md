@@ -46,6 +46,7 @@ Como em qualquer sistema de arquivos, o sistema de arquivos do MINIX deve alocar
 - Lívia Gonçalves
 - Júlia Mello
 - Pedro Henrique Pires Dias
+- Eduardo Grillo
 - Celso Vinícius
 
 </p>
