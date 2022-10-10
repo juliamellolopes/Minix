@@ -1,5 +1,15 @@
 <h1 align="center">Sistema Operacional Minix</h1>
 
+# Resumo
+
+# Escalonamento/Política/Aplicabilidade
+
+# Gestão de Memória
+
+# Gerência de Arquivos
+
+# Multiprogramação/Chaveamento de Processos/Swap
+
 # Denvolvedores 
 <p>
 
