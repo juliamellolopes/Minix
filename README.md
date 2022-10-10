@@ -6,7 +6,7 @@
 - Lívia Gonçalves
 - Júlia Melo
 - Pedro Henrique Pires Dias
-- Celso
+- Celso Vinícius
 
 </p>
 
@@ -42,6 +42,14 @@
  
 <p align="justify"> Eduardo Grillo </p>
 <a href="https://t.me/eduardogrilloo">
+<img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
+
+</div>
+ 
+<div>
+ 
+<p align="justify"> Celso Vinícius </p>
+<a href="https://web.telegram.org/k/">
 <img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
 
 </div>
