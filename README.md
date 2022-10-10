@@ -5,21 +5,35 @@
 # Contato
 
 <div>
- 
-<p align="justify"> Eduardo Grillo </p>
-<a href="https://t.me/eduardogrilloo">
-<img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
 
+<div>
+ 
 <p align="justify"> Lívia Gonçalves </p>
 <a href="https://t.me/livia_goncalves">
 <img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
 
-  <p align="justify"> Júlia Melo </p>
-  <a href="https://t.me/juliamello">
-  <img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
-    
+</div>
+ 
+<div>
+ 
+<p align="justify"> Júlia Melo </p>
+<a href="https://t.me/juliamello">
+<img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
+
+</div>
+
+<div>
+ 
 <p align="justify"> Pedro Henrique Dias </p>
 <a href="https://t.me/phpdias">
+<img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
+
+</div>
+
+<div>
+ 
+<p align="justify"> Eduardo Grillo </p>
+<a href="https://t.me/eduardogrilloo">
 <img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/> 
 
 </div>
